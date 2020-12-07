@@ -3,6 +3,9 @@
 % voltage on X axis
 voltage = [-51:0.1:1];
 
+% time period
+t  = linspace(1,10,521);
+
 % now current on Y axis
 
 i_1 = linspace(-10000e-6,-1e-6,10);
