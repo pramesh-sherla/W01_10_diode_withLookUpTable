@@ -5,6 +5,7 @@ voltage = [-51:0.1:1];
 
 % time period
 t  = linspace(1,10,521);
+t = t';
 
 % now current on Y axis
 
@@ -15,3 +16,8 @@ i_4 = linspace(1e-3,10e-3,4);
 in = union(i_1,i_2);
 ip = union(i_3,i_4);
 current = union(in,ip);
+
+% Diode VI charecteristics
+
+%figure (Diode VI charecteristics);
+plot(voltage,current);
